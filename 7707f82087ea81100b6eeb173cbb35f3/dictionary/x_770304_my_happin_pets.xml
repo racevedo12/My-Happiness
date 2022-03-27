@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Pets" max_length="40" name="x_770304_my_happin_pets" sizeclass="1" type="collection">
+        <element label="Adopt" max_length="40" name="adopt" type="boolean"/>
         <element label="Adopted?" max_length="40" name="adopted" type="boolean"/>
         <element label="Age(In years)" mandatory="true" max_length="40" name="age" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Breed" mandatory="true" max_length="40" name="breed" type="string"/>

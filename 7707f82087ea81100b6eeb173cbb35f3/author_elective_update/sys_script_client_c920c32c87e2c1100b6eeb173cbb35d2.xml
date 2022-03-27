@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Checks if a user can edit the adopted field by checking if they had the appropriate manager or admin roles.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Edit adopted field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Checks if the currently logged in user is a manager or admin.
+	if(g_user.hasRole("admin") || g_user.hasRoleExactly("x_770304_my_happin.Manager") )
+	{
+		g_form.setReadOnly("adopted", false);
+	}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-27 05:39:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c920c32c87e2c1100b6eeb173cbb35d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit adopted field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
+        <sys_update_name>sys_script_client_c920c32c87e2c1100b6eeb173cbb35d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-27 05:39:19</sys_updated_on>
+        <table>x_770304_my_happin_pets</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</application>
+        <file_path/>
+        <instance_id>7b183d65db177f8852dd2f17d4961992</instance_id>
+        <instance_name>dev91788</instance_name>
+        <name>sys_script_client_c920c32c87e2c1100b6eeb173cbb35d2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Checks if a user can edit the adopted field by checking if they had the appropriate manager or admin roles.&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Edit adopted field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Checks if the currently logged in user is a manager or admin.
+	if(g_user.hasRole("admin") || g_user.hasRoleExactly("x_770304_my_happin.Manager") )
+	{
+		g_form.setReadOnly("adopted", false);
+	}
+	
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-27 05:39:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c920c32c87e2c1100b6eeb173cbb35d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Edit adopted field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="My Happiness" source="x_770304_my_happin"&gt;7707f82087ea81100b6eeb173cbb35f3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Happiness"&gt;7707f82087ea81100b6eeb173cbb35f3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c920c32c87e2c1100b6eeb173cbb35d2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-27 05:39:19&lt;/sys_updated_on&gt;&lt;table&gt;x_770304_my_happin_pets&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1742781164</payload_hash>
+        <record_name>Edit adopted field</record_name>
+        <reverted_from/>
+        <source>7c09b82487ea81100b6eeb173cbb351c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-27 05:39:19</sys_created_on>
+        <sys_id>22c0036c87e2c1100b6eeb173cbb3590</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fc9e2d18f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-27 05:39:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6ac0036c9ae2c110b319056d3893598f</update_guid>
+        <update_guid_history>6ac0036c9ae2c110b319056d3893598f:-1742781164</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-27 05:42:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>347164e89713483aade9c48753f51324</sys_id>
+        <sys_metadata>c920c32c87e2c1100b6eeb173cbb35d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit adopted field</sys_name>
+        <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
+        <sys_parent display_value="Pets">7377bca087ea81100b6eeb173cbb35a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
+        <sys_scope_delete display_value="">30fa0b1e9966446095996dbf137b9f91</sys_scope_delete>
+        <sys_update_name>sys_script_client_c920c32c87e2c1100b6eeb173cbb35d2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c920c32c87e2c1100b6eeb173cbb35d2">22c0036c87e2c1100b6eeb173cbb3590</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-27 05:42:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

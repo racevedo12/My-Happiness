@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Pets" max_length="40" name="x_770304_my_happin_pets" type="collection">
+    <element label="Pets" max_length="40" name="x_770304_my_happin_pets" sizeclass="1" type="collection">
         <element label="Adopted?" max_length="40" name="adopted" type="boolean"/>
-        <element label="Age" max_length="40" name="age" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Breed" max_length="40" name="breed" type="string"/>
+        <element label="Age(In years)" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Breed" mandatory="true" max_length="40" name="breed" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date Adopted" max_length="40" name="date_adopted" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">

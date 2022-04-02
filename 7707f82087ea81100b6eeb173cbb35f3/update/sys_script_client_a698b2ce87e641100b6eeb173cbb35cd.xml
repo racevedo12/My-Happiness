@@ -12,19 +12,31 @@
         <order/>
         <script><![CDATA[function onLoad() {
 	//Checks if the user has the admin role or if it is the user who created the record
-	//If it is not an admin or the one who created the record, then make all fields of the form read-only.
+	//If it is not an admin or the one who created the record, then make all fields of the form read-only and hide the image field.
 
 	if( !g_user.hasRole("admin") && g_form.getValue("sys_created_by") !== g_user.userID)
 	{
+		
+		g_form.setVisible("image", false);
+		
 		var formFields = g_form.getEditableFields();
 
 		for (var i = 0; i <= formFields.length; i++)
 		{	
-			g_form.setDisabled(formFields[i], true);
+			g_form.setReadOnly(formFields[i], true);
 		}
-		
-		//Let the user adopt a pet that other user posted 		
-		g_form.setDisabled("adopt", false);
+
+		// Checks if the pet has been adopted already, if not, then let the user adopt the pet.		
+		if(g_form.getValue("adopted") === "true")
+		{	
+			g_form.setReadOnly("adopt", true);
+		}
+
+		else
+		{
+			g_form.setReadOnly("adopt", false);
+		}
+
 	}
 
 }]]></script>
@@ -34,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a698b2ce87e641100b6eeb173cbb35cd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Edit Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
@@ -42,7 +54,7 @@
         <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
         <sys_update_name>sys_script_client_a698b2ce87e641100b6eeb173cbb35cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-01 01:02:30</sys_updated_on>
+        <sys_updated_on>2022-04-02 19:52:10</sys_updated_on>
         <table>x_770304_my_happin_pets</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

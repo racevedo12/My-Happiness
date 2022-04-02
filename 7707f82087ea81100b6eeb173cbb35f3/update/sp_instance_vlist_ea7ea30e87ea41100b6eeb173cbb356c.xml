@@ -6,10 +6,11 @@
         <css/>
         <display_field>name</display_field>
         <field_list/>
-        <filter/>
+        <filter table="x_770304_my_happin_pets">adopted=false<item endquery="false" field="adopted" goto="false" newquery="false" operator="=" or="false" value="false"/>
+        </filter>
         <glyph>heart</glyph>
         <id/>
-        <maximum_entries>5</maximum_entries>
+        <maximum_entries>4</maximum_entries>
         <order>3</order>
         <order_by/>
         <order_direction>asc</order_direction>
@@ -23,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-01 00:49:49</sys_created_on>
         <sys_id>ea7ea30e87ea41100b6eeb173cbb356c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
         <sys_update_name>sp_instance_vlist_ea7ea30e87ea41100b6eeb173cbb356c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-01 00:56:33</sys_updated_on>
+        <sys_updated_on>2022-04-02 20:27:18</sys_updated_on>
         <table>x_770304_my_happin_pets</table>
         <title/>
         <url/>
@@ -44,16 +45,16 @@
 		"displayValue": ""
 	},
 	"image_field": {
-		"value": "",
-		"displayValue": ""
+		"value": "image",
+		"displayValue": "image"
 	},
 	"secondary_fields": {
-		"value": "age,breed",
-		"displayValue": "age,breed"
+		"value": "breed,age",
+		"displayValue": "breed,age"
 	},
 	"rounded_images": {
-		"value": "",
-		"displayValue": ""
+		"value": "false",
+		"displayValue": "false"
 	},
 	"list_page": {
 		"value": "",

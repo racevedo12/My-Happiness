@@ -8,13 +8,13 @@
         <homepage display_value="mh_index">8e1adbc287aa41100b6eeb173cbb35f7</homepage>
         <icon>76a79f4287aa41100b6eeb173cbb35f1</icon>
         <kb_knowledge_base/>
-        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <kb_knowledge_page display_value="kb_home">e1c919e4dbd3220099f93691f0b8f535</kb_knowledge_page>
         <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
         <logo/>
         <notfound_page display_value="mh_404">4a7763c287ea41100b6eeb173cbb35bc</notfound_page>
         <quick_start_config/>
         <sc_catalog/>
-        <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
+        <sc_catalog_page display_value="sc_landing">53261e3487100300e0ef0cf888cb0b7c</sc_catalog_page>
         <sc_category_page/>
         <search_application/>
         <search_results_configuration/>
@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-31 23:13:12</sys_created_on>
         <sys_id>ba24db4e876a41100b6eeb173cbb355c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>My Happiness Service Portal</sys_name>
         <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
         <sys_update_name>sp_portal_ba24db4e876a41100b6eeb173cbb355c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-01 00:47:56</sys_updated_on>
+        <sys_updated_on>2022-04-02 20:24:15</sys_updated_on>
         <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>My Happiness Service Portal</title>
         <ts_index_group/>

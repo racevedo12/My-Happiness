@@ -11,11 +11,10 @@
         <name>Assign owner of record</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-	//Type appropriate comment here, and begin script below
+	//Checks if there is an owner already, if not then assign the current user to the owner of the record after submitting the form.
 	if(!g_form.getValue("owner_of_record"))
 	{
 		g_form.setValue("owner_of_record", g_user.userName);
-		alert("Ay la guagua");
 	}
 
 }]]></script>
@@ -25,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b66d2ba876605100b6eeb173cbb357b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Assign owner of record</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
@@ -33,7 +32,7 @@
         <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
         <sys_update_name>sys_script_client_6b66d2ba876605100b6eeb173cbb357b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-03 06:16:43</sys_updated_on>
+        <sys_updated_on>2022-04-03 19:10:18</sys_updated_on>
         <table>x_770304_my_happin_pets</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

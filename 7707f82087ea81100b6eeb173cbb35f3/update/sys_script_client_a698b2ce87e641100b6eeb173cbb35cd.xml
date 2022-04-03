@@ -13,8 +13,12 @@
         <script><![CDATA[function onLoad() {
 	//Checks if the user has the admin role or if it is the user who created the record
 	//If it is not an admin or the one who created the record, then make all fields of the form read-only.
+	alert( g_user.userName );
 
-	if( !g_user.hasRole("admin") && g_form.getValue("sys_created_by") !== g_user.userName)
+	alert(g_form.getValue("owner_of_record"));
+
+
+	if( !g_user.hasRole("admin") && g_form.getValue("owner_of_record") !== g_user.userName)
 	{
 
 		var formFields = g_form.getEditableFields();
@@ -29,7 +33,7 @@
 		{	
 			g_form.setReadOnly("adopt", true);
 		}
-		
+
 		else
 		{
 			g_form.setReadOnly("adopt", false);
@@ -37,7 +41,10 @@
 
 	}
 
-	
+	else if( !g_user.hasRole("admin") && g_form.getValue("owner_of_record") === g_user.userName)
+	{
+		g_form.setVisible("adopt", false);
+	}
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -46,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a698b2ce87e641100b6eeb173cbb35cd</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Edit Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
@@ -54,7 +61,7 @@
         <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
         <sys_update_name>sys_script_client_a698b2ce87e641100b6eeb173cbb35cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-02 23:23:52</sys_updated_on>
+        <sys_updated_on>2022-04-03 06:31:55</sys_updated_on>
         <table>x_770304_my_happin_pets</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

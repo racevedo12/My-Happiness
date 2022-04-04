@@ -19,14 +19,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_770304_my_happin.manager</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-26 19:39:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1d97fca087ea81100b6eeb173cbb35db</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>All Incidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
         <sys_update_name>sys_app_module_1d97fca087ea81100b6eeb173cbb35db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-03 21:10:29</sys_updated_on>
+        <sys_updated_on>2022-04-04 18:24:05</sys_updated_on>
         <timeline_page/>
         <title>All Incidents</title>
         <uncancelable>false</uncancelable>

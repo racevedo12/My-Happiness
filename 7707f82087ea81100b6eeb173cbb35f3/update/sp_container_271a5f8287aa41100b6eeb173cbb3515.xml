@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>My Happiness Index - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="mh_index">8e1adbc287aa41100b6eeb173cbb35f7</sp_page>
+        <subheader>true</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-31 23:20:51</sys_created_on>
+        <sys_id>271a5f8287aa41100b6eeb173cbb3515</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>My Happiness Index - Container 1</sys_name>
+        <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
+        <sys_update_name>sp_container_271a5f8287aa41100b6eeb173cbb3515</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-03 22:09:14</sys_updated_on>
+        <title>My Happiness Service Portal</title>
+        <width>container</width>
+    </sp_container>
+</record_update>

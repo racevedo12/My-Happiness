@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_770304_my_happin.User</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-26 21:18:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>932e452c872e81100b6eeb173cbb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Happiness</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
+        <sys_update_name>sys_app_application_932e452c872e81100b6eeb173cbb35bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-26 21:18:40</sys_updated_on>
+        <title>My Happiness</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</application>
+        <file_path/>
+        <instance_id>7b183d65db177f8852dd2f17d4961992</instance_id>
+        <instance_name>dev91788</instance_name>
+        <name>sys_app_application_932e452c872e81100b6eeb173cbb35bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_770304_my_happin.User</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-26 21:18:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>932e452c872e81100b6eeb173cbb35bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Happiness</sys_name><sys_overrides/><sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package><sys_policy/><sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope><sys_update_name>sys_app_application_932e452c872e81100b6eeb173cbb35bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-26 21:18:40</sys_updated_on><title>My Happiness</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1895628647</payload_hash>
+        <record_name>My Happiness</record_name>
+        <reverted_from/>
+        <source>7c09b82487ea81100b6eeb173cbb351c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-26 21:18:40</sys_created_on>
+        <sys_id>303e092c872e81100b6eeb173cbb3530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fc818762e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-26 21:18:40</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>783e092cdd2e8110e8f4f77e8e05b12f</update_guid>
+        <update_guid_history>783e092cdd2e8110e8f4f77e8e05b12f:1895628647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Happiness">2f6ecd2c872e81100b6eeb173cbb35c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-26 21:19:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>43f7e3c035fd4fe6b9ea1a4129d06ee4</sys_id>
+        <sys_metadata>932e452c872e81100b6eeb173cbb35bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Happiness</sys_name>
+        <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
+        <sys_scope_delete display_value="">30fa0b1e9966446095996dbf137b9f91</sys_scope_delete>
+        <sys_update_name>sys_app_application_932e452c872e81100b6eeb173cbb35bf</sys_update_name>
+        <sys_update_version display_value="sys_app_application_932e452c872e81100b6eeb173cbb35bf">303e092c872e81100b6eeb173cbb3530</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-26 21:19:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

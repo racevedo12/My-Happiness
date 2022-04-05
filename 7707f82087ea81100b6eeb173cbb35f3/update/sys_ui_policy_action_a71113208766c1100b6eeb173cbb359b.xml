@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>owner</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-27 06:50:57</sys_created_on>
+        <sys_id>a71113208766c1100b6eeb173cbb359b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>owner</sys_name>
+        <sys_package display_value="My Happiness" source="x_770304_my_happin">7707f82087ea81100b6eeb173cbb35f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Happiness">7707f82087ea81100b6eeb173cbb35f3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a71113208766c1100b6eeb173cbb359b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-28 00:15:16</sys_updated_on>
+        <table>x_770304_my_happin_pets</table>
+        <ui_policy display_value="Show Owner field if pet is adopted">c4f05fec8726c1100b6eeb173cbb35c3</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
